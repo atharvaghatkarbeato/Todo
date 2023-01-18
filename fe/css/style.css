@@ -1,0 +1,54 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 80%;
+    color: red;
+    padding: 34px;
+    margin: auto;
+}
+
+.container h1,p{
+    text-align: center;
+}
+
+input, textarea{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-size: 16px;
+    margin: 18px auto;
+    padding: 10px;
+    display: block ;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn{
+    color: wheat;
+    background: blue;
+    padding: 15px 10px;
+    border-radius: 12px;
+    border: 2px solid white;
+}
+
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+table ,tr,td{
+    background-color: black;
+    align-content: center;
+    margin:30px ;
+    align-items: center;
+    border:2px solid red;
+}
